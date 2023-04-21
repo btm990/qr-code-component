@@ -67,7 +67,7 @@ body {
 .container {
     background-color: var(--clr-neutral-900);
     width: 20rem;
-    margin: 15vh auto;
+    margin: 20vh auto;
     padding: 1rem;
     border-radius: 4%;
     box-shadow: 0px 10px 25px hsla(219, 15%, 55%, 0.200);
