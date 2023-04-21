@@ -16,7 +16,7 @@
   --fw-bold: 700;
   
   --clr-primary-100: hsl(220, 15%, 55%);
-  --clr-primary-900: hsl(228, 45%, 44%);
+  --clr-primary-900: hsl(228, 44%, 22%);
   
   --clr-neutral-100: hsl(212, 45%, 89%);
   --clr-neutral-900: hsl(0, 0%, 100%);
@@ -33,7 +33,7 @@
   --size-950: 6rem;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 /* Box sizing rules */
 *,
@@ -52,41 +52,55 @@ body {
     background-color: var(--clr-neutral-100);
     font-family: var(--ff-primary);
     text-align: center;
-    padding-top: var(--size-950);
 }
 
 #qr-code {
     max-width: 100%;
-    border-radius: 3%;
+    border-radius: 4%;
 }
 
 .image-wrapper {
     width: 18rem;
-    padding-bottom: var(--size-500);
+    padding-bottom: var(--size-400);
 }
 
 .container {
     background-color: var(--clr-neutral-900);
     width: 20rem;
-    margin: auto;
+    margin: 15vh auto;
     padding: 1rem;
-    border-radius: 3%;
+    border-radius: 4%;
+    box-shadow: 0px 10px 25px hsla(219, 15%, 55%, 0.200);
 }
 
 .primary-heading {
-    padding-bottom: var(--size-500);
-    font-size: var(--fs-825);
+    color: var(--clr-primary-900);
+    padding-bottom: var(--size-400);
+    font-size: var(--fs-850);
     font-weight: var(--fw-bold);
 }
 
 .message {
-    padding-bottom: var(--size-500);
     color: var(--clr-primary-100);
+    font-size: var(--fs-500);
+    margin: 0 var(--size-400);
+    padding-bottom: var(--size-400);
 }
 
+/*
 .attribution { 
     font-size: var(--fs-100);
     padding-bottom: var(--size-400);
 }
 
 .attribution a { color: var(--clr-primary-900); }
+*/
+
+footer {
+    font-size: var(--fs-100);
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
