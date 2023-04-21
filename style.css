@@ -1,0 +1,106 @@
+:root {
+  --fs-100: 0.6875rem;
+  --fs-300: 0.8125rem;
+  --fs-400: 0.875rem;
+  --fs-500: 0.9375rem;
+  --fs-600: 1rem;
+  --fs-700: 1.125rem;
+  --fs-800: 1.25rem;
+  --fs-825: 1.325rem;
+  --fs-850: 1.375rem;
+  --fs-900: 1.5rem;
+
+  --ff-primary: 'Outfit', sans-serif;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+  
+  --clr-primary-100: hsl(220, 15%, 55%);
+  --clr-primary-900: hsl(228, 44%, 22%);
+  
+  --clr-neutral-100: hsl(212, 45%, 89%);
+  --clr-neutral-900: hsl(0, 0%, 100%);
+
+  --size-100: 0.25rem;
+  --size-200: 0.5rem;
+  --size-300: 0.75rem;
+  --size-400: 1rem;
+  --size-500: 1.5rem;
+  --size-600: 2rem;
+  --size-700: 3rem;
+  --size-800: 4rem;
+  --size-900: 5rem;
+  --size-950: 6rem;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+    background-color: var(--clr-neutral-100);
+    font-family: var(--ff-primary);
+    text-align: center;
+}
+
+#qr-code {
+    max-width: 100%;
+    border-radius: 4%;
+}
+
+.image-wrapper {
+    width: 18rem;
+    padding-bottom: var(--size-400);
+}
+
+.container {
+    background-color: var(--clr-neutral-900);
+    width: 20rem;
+    margin: 15vh auto;
+    padding: 1rem;
+    border-radius: 4%;
+    box-shadow: 0px 10px 25px hsla(219, 15%, 55%, 0.200);
+}
+
+.primary-heading {
+    color: var(--clr-primary-900);
+    padding-bottom: var(--size-400);
+    font-size: var(--fs-850);
+    font-weight: var(--fw-bold);
+}
+
+.message {
+    color: var(--clr-primary-100);
+    font-size: var(--fs-500);
+    margin: 0 var(--size-400);
+    padding-bottom: var(--size-400);
+}
+
+/*
+.attribution { 
+    font-size: var(--fs-100);
+    padding-bottom: var(--size-400);
+}
+
+.attribution a { color: var(--clr-primary-900); }
+*/
+
+footer {
+    font-size: var(--fs-100);
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
